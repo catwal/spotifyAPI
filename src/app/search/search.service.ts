@@ -10,7 +10,7 @@ let options = new RequestOptions({ headers: headers });
 
 @Injectable()
 export class SearchService {
-	private clientId: string = 'ae9b361b38f84364914b802b28e6be74';
+	private clientId: string = '';
 	private artistsUrl: string = 'https://api.spotify.com/v1/search?type=artist&limit=10&client_id'+this.clientId+'&q=';
 	private artistUrl: string;
 	private albumUrl: string;
